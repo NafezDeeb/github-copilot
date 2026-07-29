@@ -3,7 +3,7 @@ def test_root_redirects_to_static_index(client):
     expected_location = "/static/index.html"
 
     # Act
-    response = client.get("/", follow_redirects=False)
+    response = client.get("/", allow_redirects=False)
 
     # Assert
     assert response.status_code in (307, 302)
