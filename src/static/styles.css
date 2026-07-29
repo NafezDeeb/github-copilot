@@ -177,9 +177,7 @@ section h3 {
   outline-offset: 2px;
 }
 
-.activity-card__participant {
-  overflow-wrap: anywhere;
-}
+/* Duplicate .activity-card__participant rule removed; styles are defined above. */
 
 .form-group {
   margin-bottom: 15px;
