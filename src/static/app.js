@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   `
                 )
                 .join("")
-            : '<p class="activity-card__empty">No participants yet.</p>';
-
+            : '<li class="activity-card__empty">No participants yet.</li>';
         activityCard.innerHTML = `
           <div class="activity-card__header">
             <div>
